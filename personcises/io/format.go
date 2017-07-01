@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello folks! From Golang")
+	cow := "cow"
+	fmt.Printf("%T \n", cow)
 }
