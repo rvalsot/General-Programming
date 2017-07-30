@@ -3,11 +3,12 @@
 Notes from this [video](https://www.youtube.com/watch?v=lbXsrHGhBAU)
 
 __Intro__
-Privilege data over action, rather than procedural's paradigm of a series of actions or functions. Here we have a bunch of data types.
+
+In this porgramming paradigm, we privilege data over action, rather than Procedural paradigm of a series of actions or functions. Here we have a bunch of data types.
 
 In OO, we think first on data types and after that on methods attached to it.
 
-_Class_: data type definition. A compound data type of:
+We have a _Class_: data type definition. A compound data type of:
 	* _Field_: data member.
 	* _Method_: function mebmer.
 	* _Object/Instance_: actual piece of data.
@@ -17,7 +18,7 @@ Concepts:
 * __Visibility__: public (visible anywhere) / private (visibl only to methods of its own class).
 	* Strict encapsulation calls for all fields to be private, methods to interact public and the rest private.
 * Dynamic languages ussualy allow read/write outside the class, while static prevent this.
-* __Inheritance__: one type or class may include the properties of another type or class. Some language have this automatic, others require explicit inheritance. 
+* __Inheritance__: one type or class may include the properties of another type or class. Some language have this automatic, others require explicit inheritance.
 	* When to inherit? _is-a_: instances of the child class are more specific versions of parent. or _has-a_: a composition relationship.
 	* Multiple inheritance is complicated, because of relationships. Circular inheritance is forbidden.
 * __Object class__: when a class inherits from all other classes.
